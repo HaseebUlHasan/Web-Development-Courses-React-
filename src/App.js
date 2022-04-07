@@ -3,8 +3,10 @@ import Header from "./Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HTML from './Component/HTML';
 import CSS from './Component/CSS';
-import Git from './Component/Git';
+import General from './Component/General';
 import JavaScript from './Component/JavaScript';
+import RTFFields from "./Component/RTFFields";
+import Scss from "./Component/Sass"
 
 function App() {
   return (
@@ -16,8 +18,10 @@ function App() {
               <Route index element={<HTML />} />
                 <Route path="/html" element={<HTML />} />
                 <Route path="/css" element={<CSS />} />
-                <Route path="/git" element={<Git />} />
+                <Route path="/general" element={<General />} />
+                <Route path="/field" element={<RTFFields />} />
                 <Route path="/js" element={<JavaScript />} />
+                <Route path="/scss" element={<Scss />} />
               </Route>
             </Routes>
           </BrowserRouter>

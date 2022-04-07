@@ -28,7 +28,7 @@ export default function ClippedDrawer() {
           <br /> <br />
           <Link to="/html" className="link">
             {" "}
-            HTML{" "}
+            HTML5{" "}
           </Link>
           <Link to="/css" className="link">
             {" "}
@@ -36,11 +36,19 @@ export default function ClippedDrawer() {
           </Link>
           <Link to="/js" className="link">
             {" "}
-            JavaScrit{" "}
+            JS{" "}
           </Link>
-          <Link to="/git" className="link">
+          <Link to="/general" className="link">
             {" "}
-            Git{" "}
+            General Standards{" "}
+          </Link>
+          <Link to="/field" className="link">
+            {" "}
+             RTF Fields
+          </Link>
+          <Link to="/scss" className="link">
+            {" "}
+             SCSS/SASS
           </Link>
         </List>
       </Drawer>

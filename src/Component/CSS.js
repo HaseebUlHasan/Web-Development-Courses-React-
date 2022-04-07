@@ -181,9 +181,7 @@ const CSS = () => {
     <div className="Container">
       <div className="Link">
         <ul>
-          <h1> Css</h1>
-          
-          <p> Created by Haseeb Ul Hasan on April 7 , 2022</p>
+          <h1> CSS</h1>
           <li>
             <a href="#1">
               In source code, always favor maintainability and human readability
@@ -253,7 +251,6 @@ const CSS = () => {
         </ul>
       </div>
       <br /> <br />
-
       <div className="table">
         <table>
           <tr>
@@ -361,7 +358,10 @@ const CSS = () => {
                     <h3> Incorrect </h3>
                   </Typography>
                   <Typography>
-                    <code> /* Primary button */</code>
+                    <code style={{ color: "green" }}>
+                      {" "}
+                      /* Primary button */
+                    </code>
                   </Typography>
                 </CardContent>
               </Card>
@@ -376,7 +376,7 @@ const CSS = () => {
                     <h3> correct </h3>
                   </Typography>
                   <Typography>
-                    <code> // Primary button </code>
+                    <code style={{ color: "green" }}> // Primary button </code>
                   </Typography>
                 </CardContent>
               </Card>
@@ -391,8 +391,14 @@ const CSS = () => {
                     <h3> Incorrect </h3>
                   </Typography>
                   <Typography>
-                    <code> // Import all global style </code> <br />
-                    <code>// Import all modules </code>
+                    <code style={{ color: "green" }}>
+                      {" "}
+                      // Import all global style{" "}
+                    </code>{" "}
+                    <br />
+                    <code style={{ color: "green" }}>
+                      // Import all modules{" "}
+                    </code>
                   </Typography>
                 </CardContent>
               </Card>
@@ -407,10 +413,17 @@ const CSS = () => {
                     <h3> correct </h3>
                   </Typography>
                   <Typography>
-                    <code> /* </code> <br />
-                    <code> Import all global style </code> <br />
-                    <code>Import all modules </code> <br />
-                    <code> */ </code> <br />
+                    <code style={{ color: "green" }}> /* </code> <br />
+                    <code style={{ color: "green" }}>
+                      {" "}
+                      Import all global style{" "}
+                    </code>{" "}
+                    <br />
+                    <code style={{ color: "green" }}>
+                      Import all modules{" "}
+                    </code>{" "}
+                    <br />
+                    <code style={{ color: "green" }}> */ </code> <br />
                   </Typography>
                 </CardContent>
               </Card>
