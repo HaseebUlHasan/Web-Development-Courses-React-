@@ -69,7 +69,7 @@ const General = () => {
       </div>
 
       <div className="table" id="1">
-        <h2> General Knowledge</h2>
+        <h2 className="field"> General Knowledge</h2>
         <table>
           <tr id="2">
             <td>
@@ -110,7 +110,7 @@ const General = () => {
                   response and pull into the JS as needed.
                 </li>
                 <li>
-                  No text in CSS content properties. Special chars such as ">"
+                  No text in CSS content properties. Special chars such as "&#60;"
                   are generally acceptable.
                 </li>
               </ul>
@@ -196,7 +196,7 @@ const General = () => {
       <br />
 
       <div style={{ width: "60%" }} id="7">
-        <h2> Code Structure and Organization</h2>
+        <h2 className="field"> Code Structure and Organization</h2>
         <table>
           <tr>
             <td> </td>

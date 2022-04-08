@@ -15,7 +15,7 @@ function App() {
       <BrowserRouter>
             <Routes>
               <Route path="/" element={<Navbar />}>
-              <Route index element={<HTML />} />
+              <Route index element={<General />} />
                 <Route path="/html" element={<HTML />} />
                 <Route path="/css" element={<CSS />} />
                 <Route path="/general" element={<General />} />

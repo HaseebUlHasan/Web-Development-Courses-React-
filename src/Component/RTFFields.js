@@ -3,6 +3,7 @@ import React from "react";
 const RTFFields = () => {
   return (
     <div className="Container">
+       <div className="field">
       <h1> RTF Fields </h1>
       <p>
         {" "}
@@ -69,6 +70,7 @@ const RTFFields = () => {
           style text in content edit mode of an RTF field.
         </li>
       </ul>
+      </div>
     </div>
   );
 };

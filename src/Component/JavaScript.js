@@ -109,7 +109,7 @@ const JavaScript = () => {
   const twelveRow = (
     <div>
       <p className="extra-content">
-        Default parameter documentation:
+        Default parameter documentation: <br/>
         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters">
           {" "}
           https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
@@ -604,12 +604,12 @@ const JavaScript = () => {
                     <code> const $target = $(e.currentTarget);</code> <br />
                     <code> const filter = $target.data('filter');</code> <br />
                     <code>
-                      this.dom.$filter.removeClass(this.cssClasses.activeTab);{" "}
+                      <span style = {{color :"#336699"}}>this</span>.dom.$filter.removeClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);{" "}
                     </code>{" "}
                     <br />
                     <code>
                       {" "}
-                      $target.addClass(this.cssClasses.activeTab);
+                      $target.addClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);
                     </code>{" "}
                     <br />
                     <code> &#125; </code>
@@ -634,13 +634,13 @@ const JavaScript = () => {
                     <code> const filter = $target.data('filter');</code> <br />
                     <br />
                     <code>
-                      this.dom.$filter.removeClass(this.cssClasses.activeTab);{" "}
+                    <span style = {{color :"#336699"}}>this</span>.dom.$filter.removeClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);{" "}
                     </code>{" "}
                     <br />
                     <br />
                     <code>
                       {" "}
-                      $target.addClass(this.cssClasses.activeTab);
+                      $target.addClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);
                     </code>{" "}
                     <br />
                     <code> &#125; </code>
@@ -669,17 +669,17 @@ const JavaScript = () => {
                   </Typography>
                   <Typography>
                     <code>
-                      this.dom.$cta.html($optSelected.data('cta-title'));{" "}
+                    <span style = {{color :"#336699"}}>this</span>.dom.$cta.html($optSelected.data('cta-title'));{" "}
                     </code>{" "}
                     <br />
                     <code>
                       {" "}
-                      this.dom.$cta.attr('href', $optSelected.data('cta-link'));{" "}
+                      <span style = {{color :"#336699"}}>this</span>.dom.$cta.attr('href', $optSelected.data('cta-link'));{" "}
                     </code>
                     <br />
                     <code>
                       {" "}
-                      this.dom.$cta.removeClass('btn--disabled');
+                      <span style = {{color :"#336699"}}>this</span>.dom.$cta.removeClass('btn--disabled');
                     </code>{" "}
                     <br />
                   </Typography>
@@ -696,7 +696,7 @@ const JavaScript = () => {
                     <h3> correct </h3>
                   </Typography>
                   <Typography>
-                    <code>this.dom.$cta </code> <br />
+                    <code><span style = {{color :"#336699"}}>this</span>.dom.$cta </code> <br />
                     <code> &nbsp;.html($optSelected.data('cta-title')) </code>
                     <br />
                     <code>
@@ -739,12 +739,12 @@ const JavaScript = () => {
                   </Typography>
                   <Typography>
                     <code>toggle()&#123; </code> <br />
-                    <code> if (this.$el.hasClass('expanded'))&#123; </code>
+                    <code> <span style = {{color :"#336699"}}>if</span> (<span style = {{color :"#336699"}}>this</span>.$el.hasClass('expanded'))&#123; </code>
                     <br />
                     <code>
                       {" "}
                       &nbsp;
-                      $('.toggle').text(this.dom.$toggle.data('show-more'))
+                      $('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-more'))
                     </code>{" "}
                     <br />
                     <code>
@@ -753,11 +753,11 @@ const JavaScript = () => {
                       .removeClass('btn--readless').addClass('btn--readmore');
                     </code>
                     <br />
-                    <code> &#125; else &#123;</code> <br />
+                    <code> &#125; <span style = {{color :"#336699"}}>else</span> &#123;</code> <br />
                     <code>
                       {" "}
                       &nbsp;
-                      $('.toggle').text(this.dom.$toggle.data('show-less'))
+                      $('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-less'))
                     </code>
                     <br />
                     <code>
@@ -782,17 +782,17 @@ const JavaScript = () => {
                     <h3> correct </h3>
                   </Typography>
                   <Typography>
-                    <code> this.dom = &#123;</code>
+                    <code> <span style = {{color :"#336699"}}>this</span>.dom = &#123;</code>
                     <br />
                     <code> $toggle : $ ('.toggle')</code> <br />
                     <code> &#125; </code> <br /> <br />
                     <code>toggle()&#123; </code> <br />
-                    <code> if (this.$el.hasClass('expanded'))&#123; </code>
+                    <code> <span style = {{color :"#336699"}}>if</span> (<span style = {{color :"#336699"}}>this</span>.$el.hasClass('expanded'))&#123; </code>
                     <br />
                     <code>
                       {" "}
                       &nbsp;
-                      this.dom.$('.toggle').text(this.dom.$toggle.data('show-more'))
+                      <span style = {{color :"#336699"}}>this</span>.dom.$('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-more'))
                     </code>{" "}
                     <br />
                     <code>
@@ -805,7 +805,7 @@ const JavaScript = () => {
                     <code>
                       {" "}
                       &nbsp;
-                      this.dom.$('.toggle').text(this.dom.$toggle.data('show-less'))
+                      <span style = {{color :"#336699"}}>this</span>.dom.$('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-less'))
                     </code>
                     <br />
                     <code>
@@ -853,7 +853,7 @@ const JavaScript = () => {
                     <br />
                     <code>
                       {" "}
-                      this.dom.$results.append(_template(predictiveTmpl)(data));{" "}
+                      <span style = {{color :"#336699"}}>this</span>.dom.$results.append(_template(predictiveTmpl)(data));{" "}
                     </code>
                     <br />
                     <code> &#125;);</code> <br />
@@ -878,11 +878,11 @@ const JavaScript = () => {
                     <br />
                     <code>
                       {" "}
-                      this.dom.$results.append(_template(predictiveTmpl)(data));{" "}
+                      <span style = {{color :"#336699"}}>this</span>.dom.$results.append(_template(predictiveTmpl)(data));{" "}
                     </code>
                     <br />
                     <code> &#125;);</code> <br /> <br />
-                    <code> this.dom.$results.html(items);</code>
+                    <code> <span style = {{color :"#336699"}}>this</span>.dom.$results.html(items);</code>
                   </Typography>
                 </CardContent>
               </Card>
@@ -963,12 +963,12 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.addListeners();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', this.handleClick.bind(this));
+                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -998,12 +998,12 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.addListeners();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', this.handleClick.bind(this));
+                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -1027,12 +1027,12 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.addListeners();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', this.handleClick.bind(this));
+                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -1065,7 +1065,7 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.addListeners();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code> onClick(e) &#123;</code> <br />
                     <code style={{ color: "green" }}> //...</code> <br />
@@ -1075,7 +1075,7 @@ const JavaScript = () => {
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', this.handleClick.bind(this));
+                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &nbsp; &#125;</code> <br />
@@ -1096,12 +1096,12 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.addListeners();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', this.handleClick.bind(this));
+                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br /> <br />
@@ -1133,10 +1133,10 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.initSelect();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initSelect();</code> <br />
                     <code>
                       {" "}
-                      &nbsp; &nbsp;this.initValidation();
+                      &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initValidation();
                     </code> <br /> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>initSelect() &#123;</code> <br />
@@ -1162,7 +1162,7 @@ const JavaScript = () => {
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;this.initSelect();</code> <br />
+                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initSelect();</code> <br />
                     <code>
                       {" "}
                       &nbsp; &nbsp; &nbsp; &nbsp;.initValidation();

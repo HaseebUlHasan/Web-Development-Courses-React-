@@ -26,30 +26,33 @@ export default function ClippedDrawer() {
         <img src={cloudtek} style={{ width: "50%"  , display:"block" , marginLeft :"auto" , marginRight :"auto" }} />
         <List>
           <br /> <br />
-          <Link to="/html" className="link">
+          <Link to="/general" className="link">
             {" "}
-            HTML5{" "}
+            General Standards{" "}
           </Link>
           <Link to="/css" className="link">
             {" "}
             CSS{" "}
           </Link>
-          <Link to="/js" className="link">
-            {" "}
-            JS{" "}
-          </Link>
-          <Link to="/general" className="link">
-            {" "}
-            General Standards{" "}
-          </Link>
-          <Link to="/field" className="link">
-            {" "}
-             RTF Fields
-          </Link>
           <Link to="/scss" className="link">
             {" "}
              SCSS/SASS
           </Link>
+          <Link to="/html" className="link">
+            {" "}
+            HTML5{" "}
+          </Link>
+          
+          <Link to="/js" className="link">
+            {" "}
+            JS{" "}
+          </Link>
+          
+          <Link to="/field" className="link">
+            {" "}
+             RTF Fields
+          </Link>
+          
         </List>
       </Drawer>
       <Box
