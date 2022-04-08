@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import Header from "./Header";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route , Navigate} from "react-router-dom";
 import HTML from './Component/HTML';
 import CSS from './Component/CSS';
 import General from './Component/General';
@@ -16,10 +16,10 @@ function App() {
             <Routes>
               <Route path="/" element={<Navbar />}>
               <Route index element={<General />} />
-                <Route path="/html" element={<HTML />} />
+                <Route path="/html5" element={<HTML />} />
                 <Route path="/css" element={<CSS />} />
                 <Route path="/general" element={<General />} />
-                <Route path="/field" element={<RTFFields />} />
+                <Route path="/rtf" element={<RTFFields />} />
                 <Route path="/js" element={<JavaScript />} />
                 <Route path="/scss" element={<Scss />} />
               </Route>

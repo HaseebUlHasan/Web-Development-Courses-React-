@@ -19,7 +19,10 @@ const JavaScript = () => {
       <p className="extra-content">
         Please see the differences in these definitions:
       </p>
-      <a href="https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75">
+      <a
+        href="https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75"
+        target="_blank"
+      >
         https://medium.com/javascript-scene/javascript-es6-var-let-or-const-ba58b8dcde75
       </a>
     </div>
@@ -31,7 +34,10 @@ const JavaScript = () => {
       <p className="extra-content">
         ESLint is used to catch this and will give you a warning, to get
         realtime linting warnings,
-        <a href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true">
+        <a
+          href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true"
+          target="_blank"
+        >
           {" "}
           click here
         </a>{" "}
@@ -47,7 +53,10 @@ const JavaScript = () => {
         <p className="extra-content">
           ESLint is used to catch this and will give you a warning, to get
           realtime linting warnings,
-          <a href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true">
+          <a
+            href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true"
+            target="_blank"
+          >
             {" "}
             click here
           </a>{" "}
@@ -64,8 +73,7 @@ const JavaScript = () => {
         <p className="extra-content">
           ESLint is used to catch this and will give you a warning, to get
           realtime linting warnings,
-          <a href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true">
-            {" "}
+          <a href="https://confluence.verndale.com/login.action?os_destination=%2Fpages%2Fviewpage.action%3FspaceKey%3D%7EJoe.Fusco%26title%3DESLint&permissionViolation=true" target="_blank">
             click here
           </a>{" "}
           to find out how to set it up in your IDE.
@@ -109,8 +117,8 @@ const JavaScript = () => {
   const twelveRow = (
     <div>
       <p className="extra-content">
-        Default parameter documentation: <br/>
-        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters">
+        Default parameter documentation: <br />
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters" target="_blank">
           {" "}
           https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
         </a>
@@ -131,61 +139,61 @@ const JavaScript = () => {
       <ul>
         <li>
           {" "}
-          <a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3">
+          <a href="https://medium.com/javascript-scene/the-two-pillars-of-javascript-ee6f3281e7f3" target="_blank">
             {" "}
             The Two Pillars of JavaScript
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4">
+          <a href="https://medium.com/javascript-scene/why-i-use-tape-instead-of-mocha-so-should-you-6aa105d8eaf4" target="_blank">
             {" "}
             Why I use Tape Instead of Mocha & So Should You
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://medium.com/javascript-scene/a-simple-challenge-to-classical-inheritance-fans-e78c2cf5eead">
+          <a href="https://medium.com/javascript-scene/a-simple-challenge-to-classical-inheritance-fans-e78c2cf5eead" target="_blank">
             A Simple Challenge to Classical Inheritance Fans
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a">
+          <a href="https://medium.com/javascript-scene/assessing-employee-performance-1a8bdee45c1a" target="_blank">
             {" "}
             Assessing Employee Performance
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4">
+          <a href="https://medium.com/@dan_abramov/how-to-use-classes-and-sleep-at-night-9af8de78ccb4" target="_blank">
             {" "}
             How to Use Classes and Sleep at Night
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://github.com/joshburgess/not-awesome-es6-classes/">
+          <a href="https://github.com/joshburgess/not-awesome-es6-classes/" target="_blank">
             A curated list of resources on why ES6 (aka ES2015) classes are NOT
             awesome
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://rjzaworski.com/2013/03/composition-in-javascript">
+          <a href="https://rjzaworski.com/2013/03/composition-in-javascript" target="_blank">
             {" "}
             Composition in Javascript
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750">
+          <a href="https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750" target="_blank">
             {" "}
             Mixins Are Dead. Long Live Composition
           </a>
         </li>
         <li>
           {" "}
-          <a href="https://stackoverflow.com/questions/8696695/composition-inheritance-and-aggregation-in-javascript">
+          <a href="https://stackoverflow.com/questions/8696695/composition-inheritance-and-aggregation-in-javascript" target="_blank">
             Composition, Inheritance, and Aggregation in JavaScript
           </a>
         </li>
@@ -319,7 +327,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>let currentPage = 0;</code> <br />
@@ -336,7 +344,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>let currentPage = 0,</code> <br />
@@ -355,7 +363,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>const openClass = 'module--open',</code> <br />
@@ -371,7 +379,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>const openClass = 'module--open';</code> <br />
@@ -395,7 +403,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>let CurrentPage = 0;</code> <br />
@@ -411,7 +419,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>let currentPage = 0;</code> <br />
@@ -439,7 +447,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>
@@ -477,7 +485,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>const name = "Bob";</code> <br />
@@ -497,7 +505,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>const name ='Bob';</code> <br />
@@ -534,7 +542,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>const firstName = 'Bob';</code> <br />
@@ -555,7 +563,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>const firstName = 'Bob';</code> <br />
@@ -595,7 +603,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>onLoadDataByFilter(e) &#123; </code> <br />
@@ -604,12 +612,17 @@ const JavaScript = () => {
                     <code> const $target = $(e.currentTarget);</code> <br />
                     <code> const filter = $target.data('filter');</code> <br />
                     <code>
-                      <span style = {{color :"#336699"}}>this</span>.dom.$filter.removeClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$filter.removeClass(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .cssClasses.activeTab);{" "}
                     </code>{" "}
                     <br />
                     <code>
                       {" "}
-                      $target.addClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);
+                      $target.addClass(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .cssClasses.activeTab);
                     </code>{" "}
                     <br />
                     <code> &#125; </code>
@@ -624,7 +637,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>onLoadDataByFilter(e) &#123; </code> <br />
@@ -634,13 +647,18 @@ const JavaScript = () => {
                     <code> const filter = $target.data('filter');</code> <br />
                     <br />
                     <code>
-                    <span style = {{color :"#336699"}}>this</span>.dom.$filter.removeClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$filter.removeClass(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .cssClasses.activeTab);{" "}
                     </code>{" "}
                     <br />
                     <br />
                     <code>
                       {" "}
-                      $target.addClass(<span style = {{color :"#336699"}}>this</span>.cssClasses.activeTab);
+                      $target.addClass(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .cssClasses.activeTab);
                     </code>{" "}
                     <br />
                     <code> &#125; </code>
@@ -665,21 +683,24 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>
-                    <span style = {{color :"#336699"}}>this</span>.dom.$cta.html($optSelected.data('cta-title'));{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$cta.html($optSelected.data('cta-title'));{" "}
                     </code>{" "}
                     <br />
                     <code>
                       {" "}
-                      <span style = {{color :"#336699"}}>this</span>.dom.$cta.attr('href', $optSelected.data('cta-link'));{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$cta.attr('href', $optSelected.data('cta-link'));{" "}
                     </code>
                     <br />
                     <code>
                       {" "}
-                      <span style = {{color :"#336699"}}>this</span>.dom.$cta.removeClass('btn--disabled');
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$cta.removeClass('btn--disabled');
                     </code>{" "}
                     <br />
                   </Typography>
@@ -693,10 +714,13 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
-                    <code><span style = {{color :"#336699"}}>this</span>.dom.$cta </code> <br />
+                    <code>
+                      <span style={{ color: "#336699" }}>this</span>.dom.$cta{" "}
+                    </code>{" "}
+                    <br />
                     <code> &nbsp;.html($optSelected.data('cta-title')) </code>
                     <br />
                     <code>
@@ -735,16 +759,22 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>toggle()&#123; </code> <br />
-                    <code> <span style = {{color :"#336699"}}>if</span> (<span style = {{color :"#336699"}}>this</span>.$el.hasClass('expanded'))&#123; </code>
+                    <code>
+                      {" "}
+                      <span style={{ color: "#336699" }}>if</span> (
+                      <span style={{ color: "#336699" }}>this</span>
+                      .$el.hasClass('expanded'))&#123;{" "}
+                    </code>
                     <br />
                     <code>
                       {" "}
-                      &nbsp;
-                      $('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-more'))
+                      &nbsp; $('.toggle').text(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$toggle.data('show-more'))
                     </code>{" "}
                     <br />
                     <code>
@@ -753,11 +783,17 @@ const JavaScript = () => {
                       .removeClass('btn--readless').addClass('btn--readmore');
                     </code>
                     <br />
-                    <code> &#125; <span style = {{color :"#336699"}}>else</span> &#123;</code> <br />
                     <code>
                       {" "}
-                      &nbsp;
-                      $('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-less'))
+                      &#125; <span style={{ color: "#336699" }}>else</span>{" "}
+                      &#123;
+                    </code>{" "}
+                    <br />
+                    <code>
+                      {" "}
+                      &nbsp; $('.toggle').text(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$toggle.data('show-less'))
                     </code>
                     <br />
                     <code>
@@ -779,20 +815,32 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
-                    <code> <span style = {{color :"#336699"}}>this</span>.dom = &#123;</code>
+                    <code>
+                      {" "}
+                      <span style={{ color: "#336699" }}>this</span>.dom =
+                      &#123;
+                    </code>
                     <br />
                     <code> $toggle : $ ('.toggle')</code> <br />
                     <code> &#125; </code> <br /> <br />
                     <code>toggle()&#123; </code> <br />
-                    <code> <span style = {{color :"#336699"}}>if</span> (<span style = {{color :"#336699"}}>this</span>.$el.hasClass('expanded'))&#123; </code>
+                    <code>
+                      {" "}
+                      <span style={{ color: "#336699" }}>if</span> (
+                      <span style={{ color: "#336699" }}>this</span>
+                      .$el.hasClass('expanded'))&#123;{" "}
+                    </code>
                     <br />
                     <code>
                       {" "}
                       &nbsp;
-                      <span style = {{color :"#336699"}}>this</span>.dom.$('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-more'))
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$('.toggle').text(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$toggle.data('show-more'))
                     </code>{" "}
                     <br />
                     <code>
@@ -805,7 +853,10 @@ const JavaScript = () => {
                     <code>
                       {" "}
                       &nbsp;
-                      <span style = {{color :"#336699"}}>this</span>.dom.$('.toggle').text(<span style = {{color :"#336699"}}>this</span>.dom.$toggle.data('show-less'))
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$('.toggle').text(
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$toggle.data('show-less'))
                     </code>
                     <br />
                     <code>
@@ -844,7 +895,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>
@@ -853,7 +904,8 @@ const JavaScript = () => {
                     <br />
                     <code>
                       {" "}
-                      <span style = {{color :"#336699"}}>this</span>.dom.$results.append(_template(predictiveTmpl)(data));{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$results.append(_template(predictiveTmpl)(data));{" "}
                     </code>
                     <br />
                     <code> &#125;);</code> <br />
@@ -868,7 +920,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>let items = ''; </code> <br /> <br />
@@ -878,11 +930,16 @@ const JavaScript = () => {
                     <br />
                     <code>
                       {" "}
-                      <span style = {{color :"#336699"}}>this</span>.dom.$results.append(_template(predictiveTmpl)(data));{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$results.append(_template(predictiveTmpl)(data));{" "}
                     </code>
                     <br />
                     <code> &#125;);</code> <br /> <br />
-                    <code> <span style = {{color :"#336699"}}>this</span>.dom.$results.html(items);</code>
+                    <code>
+                      {" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .dom.$results.html(items);
+                    </code>
                   </Typography>
                 </CardContent>
               </Card>
@@ -917,7 +974,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>class homeHero &#123; </code> <br /> <br />
@@ -933,7 +990,7 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>class HomeHero &#123; </code> <br /> <br />
@@ -958,17 +1015,26 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .addListeners();
+                    </code>{" "}
+                    <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
+                      $('foo').on('click',{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .handleClick.bind(
+                      <span style={{ color: "#336699" }}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -993,17 +1059,26 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .addListeners();
+                    </code>{" "}
+                    <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
+                      $('foo').on('click',{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .handleClick.bind(
+                      <span style={{ color: "#336699" }}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -1022,17 +1097,26 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .addListeners();
+                    </code>{" "}
+                    <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
+                      $('foo').on('click',{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .handleClick.bind(
+                      <span style={{ color: "#336699" }}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br />
@@ -1060,12 +1144,18 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .addListeners();
+                    </code>{" "}
+                    <br />
                     <code> &#125;;</code> <br /> <br />
                     <code> onClick(e) &#123;</code> <br />
                     <code style={{ color: "green" }}> //...</code> <br />
@@ -1075,7 +1165,10 @@ const JavaScript = () => {
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
+                      $('foo').on('click',{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .handleClick.bind(
+                      <span style={{ color: "#336699" }}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &nbsp; &#125;</code> <br />
@@ -1091,17 +1184,26 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.addListeners();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .addListeners();
+                    </code>{" "}
+                    <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>addListeners()&#123;</code> <br />
                     <code>
                       {" "}
-                      $('foo').on('click', <span style = {{color :"#336699"}}>this</span>.handleClick.bind(<span style = {{color :"#336699"}}>this</span>));
+                      $('foo').on('click',{" "}
+                      <span style={{ color: "#336699" }}>this</span>
+                      .handleClick.bind(
+                      <span style={{ color: "#336699" }}>this</span>));
                     </code>{" "}
                     <br />
                     <code> &#125;</code> <br /> <br />
@@ -1128,16 +1230,25 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className="wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initSelect();</code> <br />
                     <code>
                       {" "}
-                      &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initValidation();
-                    </code> <br /> <br />
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .initSelect();
+                    </code>{" "}
+                    <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .initValidation();
+                    </code>{" "}
+                    <br /> <br />
                     <code> &#125;;</code> <br /> <br />
                     <code>initSelect() &#123;</code> <br />
                     <code style={{ color: "green" }}> //...</code> <br />
@@ -1157,12 +1268,18 @@ const JavaScript = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>class Foo &#123; </code> <br />
                     <code> &nbsp;constructor()&#123;</code> <br />
-                    <code> &nbsp; &nbsp;<span style = {{color :"#336699"}}>this</span>.initSelect();</code> <br />
+                    <code>
+                      {" "}
+                      &nbsp; &nbsp;
+                      <span style={{ color: "#336699" }}>this</span>
+                      .initSelect();
+                    </code>{" "}
+                    <br />
                     <code>
                       {" "}
                       &nbsp; &nbsp; &nbsp; &nbsp;.initValidation();

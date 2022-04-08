@@ -355,7 +355,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code style={{ color: "green" }}>
@@ -373,7 +373,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code style={{ color: "green" }}> // Primary button </code>
@@ -388,7 +388,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code style={{ color: "green" }}>
@@ -410,7 +410,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code style={{ color: "green" }}> /* </code> <br />
@@ -452,7 +452,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .c1w &#123;&#125; </code>
@@ -467,7 +467,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.column-one--wide &#123;&#125; </code>
@@ -548,7 +548,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> h1 &#123; </code> <br />
@@ -566,7 +566,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .hero__header &#123; </code> <br />
@@ -590,7 +590,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> ul.nav &#123; &#125; </code> <br />
@@ -605,7 +605,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123;&#125; </code> <br />
@@ -629,7 +629,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .rtf &#123; </code> <br />
@@ -669,7 +669,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; margin: 0;&#125; </code>
@@ -684,7 +684,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.nav &#123; </code> <br />
@@ -718,7 +718,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -734,7 +734,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.nav &#123; </code> <br />
@@ -768,7 +768,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .teaser, .highlight&#123; </code> <br />
@@ -785,7 +785,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .teaser, </code> <br />
@@ -820,7 +820,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -837,7 +837,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -871,7 +871,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -889,7 +889,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -923,7 +923,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .nav &#123; </code> <br />
@@ -941,7 +941,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <Typography>
@@ -973,7 +973,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> margin-left: 12px; </code> <br />
@@ -989,7 +989,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
 
                   <Typography>
@@ -1044,7 +1044,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> font-size: 12px; </code> <br />
@@ -1060,7 +1060,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
 
                   <Typography>
@@ -1111,7 +1111,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .button:before &#123; </code> <br /> <br />
@@ -1128,7 +1128,7 @@ const CSS = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
 
                   <Typography>

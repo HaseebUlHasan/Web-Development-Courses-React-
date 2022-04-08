@@ -21,7 +21,7 @@ const RTFFields = () => {
         At a minimum, the following HTML elements must have visual styles
         applied to them in all RTF fields unless specially called out otherwise
         in the specs. For details on what each element does see:
-        <a href="http://html5doctor.com/element-index/">
+        <a href="http://html5doctor.com/element-index/" target="_blank">
           {" "}
           http://html5doctor.com/element-index/
         </a>

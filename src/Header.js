@@ -1,14 +1,16 @@
-import * as React from "react";
+import React  from "react";
 import Box from "@mui/material/Box";
 import Drawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import { Link, Outlet } from "react-router-dom";
-import cloudtek from "./cloudtek.jpg";
+import { Outlet, NavLink  } from "react-router-dom";
+ import Cloudtek from "./cloudtek.jpg"
 
 
 const drawerWidth = 240;
 
 export default function ClippedDrawer() {
+  
+
   return (
     <Box>
       <Drawer
@@ -23,35 +25,32 @@ export default function ClippedDrawer() {
         variant="permanent"
         anchor="left"
       >
-        <img src={cloudtek} style={{ width: "50%"  , display:"block" , marginLeft :"auto" , marginRight :"auto" }} />
+        <NavLink to = "/general">
+        <img src={Cloudtek} style={{ width: "50%"  , display:"block" , marginLeft :"auto" , marginRight :"auto" }} />
+        </NavLink>
         <List>
           <br /> <br />
-          <Link to="/general" className="link">
-            {" "}
-            General Standards{" "}
-          </Link>
-          <Link to="/css" className="link">
-            {" "}
-            CSS{" "}
-          </Link>
-          <Link to="/scss" className="link">
-            {" "}
+         
+          <NavLink  to="/general" className='link' activeClassName="active">
+           General Standards
+          </NavLink >
+          <NavLink  to="/css" className='link' activeClassName="active" >
+            CSS
+          </NavLink >
+          <NavLink  to="/scss" className='link' activeClassName="active" >
              SCSS/SASS
-          </Link>
-          <Link to="/html" className="link">
-            {" "}
-            HTML5{" "}
-          </Link>
+          </NavLink >
+          <NavLink  to="/html5" className='link' activeClassName="active" >
+            HTML5
+          </NavLink >
           
-          <Link to="/js" className="link">
-            {" "}
-            JS{" "}
-          </Link>
+          <NavLink to="/js" className='link' activeClassName="active" >
+            JS
+          </NavLink>
           
-          <Link to="/field" className="link">
-            {" "}
+          <NavLink to="/rtf" className='link' activeClassName="active">
              RTF Fields
-          </Link>
+          </NavLink>
           
         </List>
       </Drawer>

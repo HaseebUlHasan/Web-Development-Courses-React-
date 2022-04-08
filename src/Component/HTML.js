@@ -221,7 +221,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;DIV class="test"&#62;... &#60;/DIV&#62; </code>
@@ -236,7 +236,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;div class="test"&#62;...&#60;/div&#62; </code>
@@ -256,7 +256,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;div class='test'&#62;... &#60;/div&#62; </code>
@@ -271,7 +271,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;div class="test"&#62;...&#60;/div&#62; </code>
@@ -332,7 +332,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>
@@ -355,7 +355,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;a href="#" class="more-button"&#62; </code>
@@ -382,7 +382,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>
@@ -403,7 +403,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;h2&#62; </code> <br />
@@ -472,7 +472,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;label&#62;Name&#60;/label&#62;</code> <br />
@@ -488,7 +488,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;label&#62;Name</code> <br />
@@ -506,7 +506,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> &#60;label for="name"&#62;Name&#60;/label&#62;</code>{" "}
@@ -533,7 +533,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>.red-box</code> <br />
@@ -550,7 +550,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.alert </code> <br />
@@ -576,7 +576,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>.globalNav</code> <br />
@@ -591,7 +591,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.global-nav </code> <br />
@@ -611,7 +611,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>.global-nav-link</code> <br />
@@ -626,10 +626,10 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
-                    <code>..global-nav__link </code> <br />
+                    <code>.global-nav__link </code> <br />
                   </Typography>
                 </CardContent>
               </Card>
@@ -645,7 +645,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className = "wrong"> Incorrect </h3>
                   </Typography>
                   <Typography>
                     <code>.global-nav__link-primary</code> <br />
@@ -660,7 +660,7 @@ const HTML = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className = "correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code>.global-nav__link--primary </code> <br />

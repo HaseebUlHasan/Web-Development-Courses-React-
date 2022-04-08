@@ -16,12 +16,14 @@ a{
   font-weight: 600;
   }
 
-.link:hover {
+.active, .link:hover {
   color: blue;
 }
-.link:focus {
- color : blue;
+
+.active{
+  color: blue;
 }
+
 .Container{
   text-align: left;
   display: flex;
@@ -41,7 +43,7 @@ table{
   border: 1px solid black;
   border-bottom: 1px solid black;
   border-top: 1px solid black;
-  border-right: 1px solid black;
+  border-right:  1px solid black;
   border-left: 1px solid black;
   border-collapse: collapse;
   width: 100%;
@@ -55,9 +57,9 @@ td{
   width: 50%;
   padding : 10px;
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  border-top: 1px solid black; 
   border-right: 1px solid black;
-  border-left: 1px solid black;
+   border-left: 1px solid black;
 }
 h3 {
   color : #454343;
@@ -70,4 +72,10 @@ h3 {
 }
 .field{
   margin-left: 20px;
+}
+.correct{
+  color : green;
+}
+.wrong{
+  color : red;
 }

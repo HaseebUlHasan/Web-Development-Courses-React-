@@ -150,7 +150,7 @@ const Sass = () => {
             <td>
               Use SASS variables
               <ul>
-                <li>
+                <li id ="2">
                   <strong>Most often stored in _variables.scss </strong>
                 </li>
                 <li>
@@ -172,7 +172,7 @@ const Sass = () => {
             <td></td>
           </tr>
 
-          <tr id = "2">
+          <tr id = "3">
             <td>Create separate SASS files for each widget/module/component
             <a
                 className="read-more-link"
@@ -188,7 +188,7 @@ const Sass = () => {
             <td></td>
           </tr>
 
-          <tr id = "3">
+          <tr id = "4">
             <td>Use mixins
             <a
                 className="read-more-link"
@@ -204,7 +204,7 @@ const Sass = () => {
             <td></td>
           </tr>
 
-          <tr id = "4">
+          <tr id = "5">
             <td> Use placeholders
             <a
                 className="read-more-link"
@@ -291,7 +291,7 @@ const Sass = () => {
             </td>
           </tr>
 
-          <tr id="5">
+          <tr id="6">
             <td>Minimize nesting
             <a
                 className="read-more-link"
@@ -312,7 +312,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Not Great </h3>
+                    <h3 className = "wrong"> Not Great </h3>
                   </Typography>
                   <Typography>
                     <code> .header &#123;</code>
@@ -347,7 +347,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Better </h3>
+                    <h3 className = "correct"> Better </h3>
                   </Typography>
                   <Typography>
                     <code> .header &#123;</code>
@@ -382,7 +382,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Even Better </h3>
+                    <h3 className = "correct"> Even Better </h3>
                   </Typography>
                   <Typography>
                     <code> .header &#123;</code>
@@ -409,7 +409,7 @@ const Sass = () => {
             </td>
           </tr>
 
-          <tr id ="6">
+          <tr id ="7">
             <td>
               Avoid Concatenation with &
               <ul>
@@ -438,7 +438,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> Incorrect </h3>
+                    <h3 className ="wrong"> InCorrect </h3>
                   </Typography>
                   <Typography>
                     <code> .class &#123; </code>
@@ -467,7 +467,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className ="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .class &#123;</code>
@@ -490,7 +490,7 @@ const Sass = () => {
                     color="text.secondary"
                     gutterBottom
                   >
-                    <h3> correct </h3>
+                    <h3 className ="correct"> Correct </h3>
                   </Typography>
                   <Typography>
                     <code> .class &#123; </code>

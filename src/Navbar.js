@@ -20,7 +20,7 @@ export default function ButtonAppBar() {
       >
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-            Cloudtek
+         <strong>  Coding Standards/Practices</strong>
           </Typography>
         </Toolbar>
       </AppBar>
